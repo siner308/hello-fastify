@@ -1,9 +1,9 @@
 import { FastifyTypeormOptions } from 'fastify-typeorm-plugin';
 import env from '../env';
-import { Brand } from '../entities/brand.entity';
-import { Hashtag } from '../entities/hashtag.entity';
-import { Place } from '../entities/place.entity';
-import { User } from '../entities/user.entity';
+import { Brand } from '../modules/brand/brand.entity';
+import { Hashtag } from '../modules/hashtag/hashtag.entity';
+import { Place } from '../modules/place/place.entity';
+import { User } from '../modules/user/user.entity';
 
 const typeormConfig: FastifyTypeormOptions = {
   type: 'mysql',

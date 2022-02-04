@@ -7,9 +7,9 @@ import {
   ManyToOne,
   PrimaryGeneratedColumn, UpdateDateColumn,
 } from 'typeorm';
-import { User } from './user.entity';
-import { Hashtag } from './hashtag.entity';
-import { Brand } from './brand.entity';
+import { User } from '../user/user.entity';
+import { Hashtag } from '../hashtag/hashtag.entity';
+import { Brand } from '../brand/brand.entity';
 
 @Entity()
 export class Place extends BaseEntity {
