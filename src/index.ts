@@ -1,6 +1,6 @@
-import server from './server';
+import instance from './instance';
 
-server.listen(8080, (err, address) => {
+instance.listen(8080, (err, address) => {
   if (err) {
     console.error(err)
     process.exit(1)
